@@ -1,0 +1,295 @@
+/*   I M P O R T   */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
+
+
+/*   B A S I S   */
+
+body, header, p, a, .project, hr, video, iframe, footer{
+  font-family: 'Montserrat', monospace;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  color: #fff;
+  background-color: #000;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  clear: both;
+  /* word-break: break-word;*/
+  /*text-transform: none;*/
+}
+
+
+
+/*   T Y P E   */
+
+p, a{
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.description p, .description a{
+  font-size: 22px;
+  line-height: 38px;
+}
+
+figcaption{
+	text-align: right;
+}
+
+small, figcaption{
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  word-spacing: 0.14em;
+}
+
+.miskolczy a, .miskolczymobile a{
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.miskolczymobile {
+  display: none;
+  padding-left: 20px;
+  padding-top: 30px;
+  background-color: #fff;
+}
+
+hr {
+  border: 1px solid #f33;
+}
+
+::selection {
+  background: rgba(120, 120, 120, 0.4);
+}
+
+
+
+/*   L I N K S  */
+
+a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.miskolczymobile a, header a, footer a{
+  padding: 0px;
+	color: #111;
+  text-decoration: none;
+}
+
+.miskolczymobile {
+  display: none;
+}
+
+a:hover{
+color: #f33;
+}
+
+
+
+/*   I M A G E S   */
+
+.gallery2 img, video{
+  width: 100%;
+  height: auto;
+}
+
+figure, img, video {
+  float: left;
+}
+
+figure{
+	margin: 0px;
+}
+
+.figure{
+	margin-right: 55px;
+}
+
+
+
+/*   D E S I G N   */
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.menu, .next {
+  text-align: right;
+}
+
+iframe.startscreen{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+iframe{
+background-color: transparent;
+}
+.description {
+  padding: 140px 0px 180px 0px;
+}
+
+
+
+.gallery1 {
+	  float: left;
+	  width: 100%;
+    padding-bottom: 80px;
+}
+
+.gallery1 figure{
+	margin-bottom: 80px;
+}
+
+img {
+  width: auto;
+  height: 300px;
+}
+
+.gallery2{
+  margin-bottom: 80px;
+}
+
+.gallery2 img, .gallery2 video, .gallery2 iframe{
+  margin-bottom: 80px;
+}
+
+.shadow{
+  outline: solid 0px;
+}
+
+.shadow:hover{
+ -webkit-box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
+-moz-box-shadow: 0px 5px 100px -10px rgba(255,255,255,255.2);
+box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
+}
+
+
+
+/*   G R I D   */
+
+header, .project, footer {
+  display: grid;
+  grid-template-columns: 55px 0.5fr 2fr 0.5fr 55px;
+  align-items: center;
+  grid-auto-rows: minmax(60px, auto);
+}
+
+
+
+@media (min-width: 700px) {
+
+
+.miskolczy, .logo, .back {
+  grid-column: 2;
+}
+
+.viscom, .description, .gallery2 {
+  grid-column: 3;
+}
+
+.menu, .next {
+  grid-column: 4;
+}
+
+.maxwidth {
+  grid-column: 2 / span 3;
+}
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+header, .project, footer {
+  grid-template-columns: 20px auto auto 1fr 20px;
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.m, .back {
+  grid-column: 2;
+}
+
+.viscom{
+  grid-column: 3;
+}
+
+.menu, .next {
+  grid-column: 4;
+}
+
+.description {
+  grid-column: 2;
+}
+
+.maxwidth, .gallery2{
+  grid-column: 1 / span 5;
+}
+
+
+
+/*   M O B I L E   */
+
+.description p, .description a {
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.miskolczy {
+  display: none;
+}
+
+.miskolczymobile {
+display:block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.figure{
+	margin-right: 0px;
+}
+
+figcaption{
+  padding-right: 20px;
+}
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+}
+}
