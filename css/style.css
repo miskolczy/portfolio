@@ -47,11 +47,24 @@ figcaption{
 	text-align: right;
 }
 
-small, figcaption{
+address a, small, figcaption{
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.08em;
   word-spacing: 0.14em;
+}
+
+address{
+padding-top: 10px;
+padding-bottom: 100px;
+}
+
+.address address a{
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
 }
 
 .miskolczy a, .miskolczymobile a{
@@ -139,17 +152,7 @@ footer {
   text-align: right;
 }
 
-iframe.startscreen{
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
+
 
 iframe{
 background-color: transparent;
@@ -183,6 +186,29 @@ img {
   margin-bottom: 80px;
 }
 
+iframe.startscreen{
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  z-index: -1;
+}
+.address{
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  text-align: center;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .shadow{
   outline: solid 0px;
 }
@@ -191,6 +217,10 @@ img {
  -webkit-box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
 -moz-box-shadow: 0px 5px 100px -10px rgba(255,255,255,255.2);
 box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
+}
+
+.start{
+margin-bottom: 0px;
 }
 
 
