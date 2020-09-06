@@ -209,6 +209,10 @@ iframe.startscreen{
   left: 0px;
 }
 
+video{
+  outline: solid 0px;
+}
+
 .shadow{
   outline: solid 0px;
 }
