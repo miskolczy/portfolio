@@ -31,7 +31,7 @@
 
 /*   B A S I S   */
 
-body, header, p, a, .project, hr, video, iframe, footer{
+body, header, p, a, .project, hr, video, iframe, footer {
   font-family: 'Montserrat', monospace;
   font-weight: 500;
   font-style: normal;
@@ -48,43 +48,41 @@ body, header, p, a, .project, hr, video, iframe, footer{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   clear: both;
-  /* word-break: break-word;*/
-  /*text-transform: none;*/
 }
 
 
 
 /*   T Y P E   */
 
-p, a{
+p, a {
   font-size: 16px;
   line-height: 28px;
   padding-bottom: 10px;
   background-color: transparent;
 }
 
-.description p, .description a{
+.description p, .description a, .next a, .back a {
   font-size: 22px;
   line-height: 38px;
 }
 
-figcaption{
+figcaption {
 	text-align: right;
 }
 
-address a, small, figcaption{
+address a, small, figcaption {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.08em;
   word-spacing: 0.14em;
 }
 
-address{
-padding-top: 10px;
-padding-bottom: 100px;
+address {
+  padding-top: 10px;
+  padding-bottom: 100px;
 }
 
-.address address a{
+.address address a {
   text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
@@ -92,7 +90,7 @@ padding-bottom: 100px;
 
 }
 
-.miskolczy p, .miskolczymobile p{
+.miskolczy p, .miskolczymobile p {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -118,11 +116,10 @@ hr {
 /*   L I N K S  */
 
 a:hover {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  transition: .3s;
 }
 
-.miskolczy p, .miskolczymobile p, header a, footer a{
+.miskolczy p, .miskolczymobile p, header a, footer a {
   padding: 0px;
 	color: #111;
   text-decoration: none;
@@ -132,15 +129,15 @@ a:hover {
   display: none;
 }
 
-a:hover{
-color: #f33;
+a:hover {
+  color: #f33;
 }
 
 
 
 /*   I M A G E S   */
 
-.gallery2 img, video{
+.gallery2 img, video {
   width: 100%;
   height: auto;
 }
@@ -149,11 +146,11 @@ figure, img, video {
   float: left;
 }
 
-figure{
+figure {
 	margin: 0px;
 }
 
-.figure{
+.figure {
 	margin-right: 55px;
 }
 
@@ -177,24 +174,17 @@ footer {
   text-align: right;
 }
 
-
-
-iframe{
-background-color: transparent;
-}
 .description {
   padding: 140px 0px 180px 0px;
 }
 
-
-
 .gallery1 {
-	  float: left;
-	  width: 100%;
-    padding-bottom: 80px;
+  float: left;
+  width: 100%;
+  padding-bottom: 80px;
 }
 
-.gallery1 figure{
+.gallery1 figure {
 	margin-bottom: 80px;
 }
 
@@ -203,7 +193,7 @@ img {
   height: 300px;
 }
 
-.gallery2{
+.gallery2 {
   margin-bottom: 80px;
 }
 
@@ -211,7 +201,29 @@ img {
   margin-bottom: 80px;
 }
 
-iframe.startscreen{
+video {
+  outline: solid 0px;
+}
+
+.shadow {
+  outline: solid 0px;
+}
+
+.shadow:hover {
+  -webkit-box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
+  -moz-box-shadow: 0px 5px 100px -10px rgba(255,255,255,255.2);
+  box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
+}
+
+iframe {
+  background-color: transparent;
+}
+
+
+
+/*   H O M E  */
+
+iframe.startscreen {
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -223,7 +235,8 @@ iframe.startscreen{
   margin-bottom: 0px;
   z-index: -1;
 }
-.address{
+
+.address {
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   -webkit-transform: rotate(-180deg);
@@ -234,22 +247,8 @@ iframe.startscreen{
   left: 0px;
 }
 
-video{
-  outline: solid 0px;
-}
-
-.shadow{
-  outline: solid 0px;
-}
-
-.shadow:hover{
- -webkit-box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
--moz-box-shadow: 0px 5px 100px -10px rgba(255,255,255,255.2);
-box-shadow: 0px 5px 100px -10px rgba(255,255,255,0.2);
-}
-
-.start{
-margin-bottom: 0px;
+.start {
+  margin-bottom: 0px;
 }
 
 
@@ -299,7 +298,7 @@ header, .project, footer {
   grid-column: 2;
 }
 
-.viscom{
+.viscom {
   grid-column: 3;
 }
 
@@ -311,7 +310,7 @@ header, .project, footer {
   grid-column: 2;
 }
 
-.maxwidth, .gallery2{
+.maxwidth, .gallery2 {
   grid-column: 1 / span 5;
 }
 
@@ -331,7 +330,7 @@ header, .project, footer {
 }
 
 .miskolczymobile {
-display:block;
+  display:block;
 }
 
 img {
@@ -339,11 +338,11 @@ img {
   height: auto;
 }
 
-.figure{
+.figure {
 	margin-right: 0px;
 }
 
-figcaption{
+figcaption {
   padding-right: 20px;
 }
 
