@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="verlauf" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1620 1080" style="enable-background:new 0 0 1620 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#DADADA;}
+	.st1{clip-path:url(#SVGID_2_);fill:#52646D;}
+	.st2{clip-path:url(#SVGID_2_);fill:#2D373B;}
+	.st3{clip-path:url(#SVGID_2_);fill:#10191C;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="1620" height="1080"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect y="0" class="st0" width="1620" height="1080"/>
+	<rect x="405" y="0" class="st1" width="1215" height="1080"/>
+	<rect x="810" y="0" class="st2" width="810" height="1080"/>
+	<rect x="1215" y="0" class="st3" width="405" height="1080"/>
+</g>
+</svg>
