@@ -70,27 +70,14 @@ figcaption {
 	text-align: right;
 }
 
-address a, small, figcaption {
+address a, figcaption, small a, p small  {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.08em;
   word-spacing: 0.14em;
 }
 
-address {
-  padding-top: 10px;
-  padding-bottom: 100px;
-}
-
-.address address a {
-  text-decoration: none;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-
-}
-
-.miskolczy p, .miskolczymobile p {
+.miskolczy a, .miskolczymobile p {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -119,13 +106,13 @@ a:hover {
   transition: .3s;
 }
 
-.miskolczy p, .miskolczymobile p, header a, footer a {
+.miskolczy a, .miskolczymobile p, header a, header p, footer a {
   padding: 0px;
 	color: #111;
   text-decoration: none;
 }
 
-.miskolczymobile {
+.miskolczymobile, .viscommobile {
   display: none;
 }
 
@@ -236,17 +223,6 @@ iframe.startscreen {
   z-index: -1;
 }
 
-.address {
-  writing-mode: vertical-lr;
-  transform: rotate(-180deg);
-  -webkit-transform: rotate(-180deg);
-  text-align: center;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
 .start {
   margin-bottom: 0px;
 }
@@ -298,7 +274,7 @@ header, .project, footer {
   grid-column: 2;
 }
 
-.viscom {
+.viscommobile {
   grid-column: 3;
 }
 
@@ -325,11 +301,11 @@ header, .project, footer {
   background-color: transparent;
 }
 
-.miskolczy {
+.miskolczy, .viscom {
   display: none;
 }
 
-.miskolczymobile {
+.miskolczymobile, .viscommobile {
   display:block;
 }
 
