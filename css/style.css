@@ -77,7 +77,7 @@ address a, figcaption, .impressum a, small a, p small  {
   word-spacing: 0.14em;
 }
 
-.miskolczy a, .miskolczymobile p {
+.miskolczy a, .miskolczymobile a {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -106,7 +106,7 @@ a:hover {
   transition: .3s;
 }
 
-.miskolczy a, .miskolczymobile p, header a, header p, footer a {
+.miskolczy a, .miskolczymobile a, header a, header p, footer a {
   padding: 0px;
 	color: #111;
   text-decoration: none;
