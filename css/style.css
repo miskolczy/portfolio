@@ -66,11 +66,11 @@ p, a {
   line-height: 38px;
 }
 
-figcaption {
+figcaption, .impressum {
 	text-align: right;
 }
 
-address a, figcaption, small a, p small  {
+address a, figcaption, .impressum a, small a, p small  {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.08em;
@@ -318,7 +318,7 @@ img {
 	margin-right: 0px;
 }
 
-figcaption {
+figcaption, .impressum {
   padding-right: 20px;
 }
 
