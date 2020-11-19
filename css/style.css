@@ -265,7 +265,7 @@ header, .project, footer {
 @media only screen and (max-width: 900px) {
 
 
-header, .project, footer {
+header, .project, footer, .impressum {
   grid-template-columns: 20px auto auto 1fr 20px;
   grid-auto-rows: minmax(50px, auto);
 }
