@@ -294,6 +294,10 @@ header, .project, footer, .impressum {
 
 /*   M O B I L E   */
 
+.gallery1 {
+  padding-bottom: 80px;
+}
+
 .description p, .description a {
   font-size: 16px;
   line-height: 28px;
