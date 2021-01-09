@@ -30,7 +30,7 @@ body, header, p, a, .project, hr, video, iframe, footer {
 /*   T Y P E   */
 
 p, a {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 28px;
   padding-bottom: 10px;
   background-color: transparent;
@@ -180,27 +180,6 @@ video {
 
 iframe {
   background-color: transparent;
-}
-
-
-
-/*   H O M E  */
-
-iframe.startscreen {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 0px;
-  z-index: -1;
-}
-
-.start {
-  margin-bottom: 0px;
 }
 
 
