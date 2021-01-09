@@ -1,30 +1,9 @@
 /*   I M P O R T   */
 
-/* montserrat-500 - latin */
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/montserrat-v14-latin-500.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Medium'), local('Montserrat-Medium'),
-       url('../font/montserrat-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/montserrat-v14-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../font/montserrat-v14-latin-500.woff') format('woff'), /* Modern Browsers */
-       url('../font/montserrat-v14-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../font/montserrat-v14-latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
-}
-/* montserrat-800 - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../font/montserrat-v14-latin-800.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
-       url('../font/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/montserrat-v14-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../font/montserrat-v14-latin-800.woff') format('woff'), /* Modern Browsers */
-       url('../font/montserrat-v14-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../font/montserrat-v14-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+  font-family: 'DornSans';
+  src:  url('../font/DornSans-Regular.woff2') format('woff2'),
+        url('../font/DornSans-Regular.woff') format('woff');
 }
 
 
@@ -32,18 +11,14 @@
 /*   B A S I S   */
 
 body, header, p, a, .project, hr, video, iframe, footer {
-  font-family: 'Montserrat', monospace;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 0.02em;
-  word-spacing: 0.1em;
+  font-family: DornSans, monospace;
   padding: 0px;
   margin: 0px;
   border: 0px;
   color: #fff;
   background-color: #000;
   text-decoration-thickness: 1px;
-  text-underline-offset: 6px;
+  text-underline-offset: 10px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -62,25 +37,26 @@ p, a {
 }
 
 .description p, .description a, .next a, .back a {
-  font-size: 22px;
-  line-height: 38px;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  word-spacing: 0.05em;
 }
 
 figcaption, .impressum {
 	text-align: right;
 }
 
-address a, figcaption, .impressum a, small a, p small  {
-  font-size: 12px;
+address a, figcaption, .impressum a, small a, p small, small  {
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.08em;
-  word-spacing: 0.14em;
+  word-spacing: 0.15em;
 }
 
 .miskolczy a, .miskolczymobile a {
-  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.13em;
 }
 
 .miskolczymobile {
@@ -299,10 +275,12 @@ header, .project, footer, .impressum {
 }
 
 .description p, .description a {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   padding-bottom: 10px;
   background-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
 }
 
 .miskolczy, .viscom {
