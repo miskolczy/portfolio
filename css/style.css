@@ -30,7 +30,7 @@ body, header, p, a, .project, hr, video, iframe, footer {
 /*   T Y P E   */
 
 p, a {
-  font-size: 17px;
+  font-size: 15.5px;
   line-height: 28px;
   padding-bottom: 10px;
   background-color: transparent;
@@ -48,7 +48,7 @@ figcaption, .impressum {
 }
 
 address a, figcaption, .impressum a, small a, p small, small  {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
   letter-spacing: 0.08em;
   word-spacing: 0.15em;
@@ -254,8 +254,8 @@ header, .project, footer, .impressum {
 }
 
 .description p, .description a {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
   padding-bottom: 10px;
   background-color: transparent;
   text-decoration-thickness: 1px;
